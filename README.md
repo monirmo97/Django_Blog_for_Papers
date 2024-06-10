@@ -3,11 +3,17 @@ Blog for Papers is a Django app that allows users to publish and read  papers on
 
 ## Features
 •  Papers are stored in a SQLite database using Django models and serializers
+
 •  Papers have the following fields: title, content, topic, authors, publish time, and abstract
+
 •  Users can perform (create, read, delete) operations on papers 
+
 •  Users can filter papers by topic using a path parameter
+
 •  Users can submit comments on the papers 
+
 •  Users can create authors 
+
 •  Users can view the JSON response of the API using Postman
 
 ## Installation
